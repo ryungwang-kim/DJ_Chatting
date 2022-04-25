@@ -19,7 +19,4 @@ cd /(JAVA_HOME)
 ### 그 외 
 tomcat 안의 server.xml 에 다음과 같이 추가해 줍니다.
 
-<Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
-           maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
-           clientAuth="false" sslProtocol="TLS" 
-           keystoreFile="D:\tomcatkeystore" keystorePass="namusoft" />
+![image](https://user-images.githubusercontent.com/100888647/165062793-690c7e8e-bc10-4495-9e70-a23916a21ea5.png)
